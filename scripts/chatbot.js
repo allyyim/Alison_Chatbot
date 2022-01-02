@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  alert("Welcome to Alison's ChatBot! Type in the textbox to talk with the ChatBot. Try saying hi, asking for the time, book recs based on the genre, food recs in NYC (dining neighborhood, cuisine, meal type, type), an interesting or weird world record, an activity to add to your bucket list, fun facts/trivia, or for a joke.");
+  alert("Welcome to Alison's ChatBot! Type in the textbox to talk with the ChatBot. Try saying hi, asking for the time, book recs based on the genre, food recs in NYC (dining neighborhood, cuisine, meal type, type) fun facts/trivia, or for a joke.");
 
   var greetings = ["hello", "hey", "howdy", "hi", "yo", "hola", "bonjour", "salut"];
   var questionStart = ["how", "what", "what's", "where", "why", "?"];
@@ -706,6 +706,1221 @@ $(document).ready(function() {
                 break;
           }
         } 
+        else if(userTextString.includes("horror")) {
+          switch(randomNum25) {
+                case 0:
+                  createText("Carrie by Stephen King", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+                case 1:
+                  createText("The Haunting of Hill House by Shirley Jackson", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 2:
+                  createText("Ring by Koji Suzuki", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 3:
+                  createText("A Head Full of Ghosts by Paul Tremblay", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 4:
+                createText("The Women in Black by Susan Hill", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 5:
+                createText("The Damnation Game by Clive Barker", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 6:
+                createText("Audition by Ryu Murakami", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 7:
+                createText("The Devil in Silver by Victor LaValle", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 8:
+                createText("Burnt Offering by Robert Marasco", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 9:
+                createText("John Dies at the End by David Wong", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 10:
+                createText("Rebecca by Daphne du Maurier", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 11:
+                createText("Geek Love by Katherine Dunn", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 12:
+                createText("The Other by Thomas Tryon", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 13:
+                createText("Little Star by John Ajvide Lindqvist", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 14:
+                createText("The Shining Girls by Lauren Beukes", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 15:
+                createText("Girl Next Door by Jack Ketchum", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 16:
+                createText("At the Mountains of Madness by H.P. Lovecraft", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 17:
+                createText("The Ceremonies by T.E.D. Klein", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 18:
+                createText("Something Wicked This Way Comes by Ray Bradbury", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 19:
+                createText("American Psycho by Bret Easton Ellis", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 20:
+                createText("Swan Song by Robert R. McCammon", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 21:
+                createText("Ghost Story by Peter Straub", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 22:
+                createText("Broken Monsters by Lauren Beukes", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break; 
+              case 23:
+                createText("Rosemary’s Baby by Ira Levin", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;  
+              case 24:
+                createText("House of Leaves by Mark Z. Danielewski", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 25:
+                createText("The Only Good Indians by Stephen Graham Jones", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+          }
+        }
+        else if(userTextString.includes("historical fiction")) {
+          switch(randomNum25) {
+                case 0:
+                  createText("The Help by Kathyrn Stockett", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+                case 1:
+                  createText("One Hundred Years of Solitude by Gabriel Garcia Marquez", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 2:
+                  createText("Memoirs of a Geisha by Arthur Golden", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 3:
+                  createText("The Children of Jocasta by Natalie Haynes", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 4:
+                createText("The Land Beyond the Sea by Sharon Penman", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 5:
+                createText("She Who Became the Sun by Shelley Parker-Chan", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 6:
+                createText("The Sin Eater by Megan Campisi", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 7:
+                createText("City of Vengeance by D.V. Bishop", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 8:
+                createText("Tombland by C.J. Sansom", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 9:
+                createText("The City of Tears by Kate Mosse", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 10:
+                createText("The Mercies by Kiran Millwood Hargave", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 11:
+                createText("Daughters of Night by Laura Shepherd-Robinson", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 12:
+                createText("The Doll Factory by Elizabeth Macneal", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 13:
+                createText("A Marvellous Light by Freya Marske", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 14:
+                createText("Sunset Swing by Ray Celestin", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 15:
+                createText("The Prince of the Skies by Antonio Iturbe", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 16:
+                createText("The Secrets of the Lake by Liz Trenow", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 17:
+                createText("The Pull of the Stars by Emma Donoghue", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 18:
+                createText("The Muse by Jessie Burton", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 19:
+                createText("Kololo Hill by Neema Shah", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 20:
+                createText("All the Light We Cannot See by Anthony Doerr", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 21:
+                createText("Outlander by Diana Gabaldon", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 22:
+                createText("The White Queen by Philippa Gregory", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break; 
+              case 23:
+                createText("Girl with a Pearl Earring by Tracy Chevalier", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;  
+              case 24:
+                createText("Alias Grace by Margaret Atwood", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 25:
+                createText("Number the Stars by Lois Lowry", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+          }
+        }  
+        else if(userTextString.includes("dystopian")) {
+          switch(randomNum25) {
+                case 0:
+                  createText("A Clockwork Orange by Anthony Burgess", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+                case 1:
+                  createText("Blindness by Jose Saramago", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 2:
+                  createText("The Road by Cormac McCarthy", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 3:
+                  createText("The Children of Men by P.D. James", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 4:
+                createText("Do Androids Dream of Electric Sheep? by Philip K. Dick", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 5:
+                createText("The Drowned World by J.G. Ballard", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 6:
+                createText("Station Eleven Emily St. John Mandel", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 7:
+                createText("The Time Machine by H.G. Wells", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 8:
+                createText("Oryx and Crake by Margaret Atwood", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 9:
+                createText("Parable of the Sower by Octavia E. Butler", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 10:
+                createText("The Chrysalids by John Wyndham", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 11:
+                createText("The Power by Naomi Alderman", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 12:
+                createText("The Dispossessed by Ursula K. Le Guin", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 13:
+                createText("Borne by Jeff VanderMeer", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 14:
+                createText("The Iron Heel by Jack London", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 15:
+                createText("The Day of the Triffids by John Wyndham", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 16:
+                createText("Slaughterhouse-Five by Kurt Vonnegut", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 17:
+                createText("The Wall by John Lanchester", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 18:
+                createText("Future Home of the Living God by Louise Erdric", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 19:
+                createText("Kololo Hill by Neema Shah", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 20:
+                createText("V for Vendetta by Alan Moore and David Lloyd", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 21:
+                createText("Severance by Ling Ma", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 22:
+                createText("The Dreamers by Karen Thompson Walker", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break; 
+              case 23:
+                createText("Uglies by Scott Westerfield", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;  
+              case 24:
+                createText("The Leftovers by Tom Perrotta", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 25:
+                createText("The Fifth Season by N.K. Jemisin", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+          }
+        }  
+        else if(userTextString.includes("classic")||userTextString.includes("classics")) {
+          switch(randomNum25) {
+                case 0:
+                  createText("Wide Sargasso Sea by Jean Rhys", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+                case 1:
+                  createText("I Capture The Castle by Dodie Smith", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 2:
+                  createText("Jane Eyre by Charlotte Bronte", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 3:
+                  createText("Crime and Punishment by Fyodor Dostoevsky", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 4:
+                createText("Persuasion by Jane Austen", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 5:
+                createText("To the Lighthouse by Virginia Woolf", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 6:
+                createText("The Death of the Heart by Elizabeth Bowen", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 7:
+                createText("Buddenbrooks by Thomas Mann", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 8:
+                createText("Tess of the d'Urbervilles by Thomas Hardy", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 9:
+                createText("The Master and Margarita by Mikhail Bulgakov", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 10:
+                createText("The Go-Between by L.P. Hartley", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 11:
+                createText("The Code of the Woosters by P.G. Wodehouse", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 12:
+                createText("The Age of Innocence by Edith Warton", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 13:
+                createText("Vanity Fair by William Makepeace Thackeray", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 14:
+                createText("Midnight’s Children by Salman Rushdie", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 15:
+                createText("Middlemarch by George Eliot", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 16:
+                createText("Brideshead Revisited by Evelyn Waugh", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 17:
+                createText("Another Country by James Baldwin", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 18:
+                createText("The Count of Monte Cristo by Alexandre Dumas", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 19:
+                createText("Ulysses by James Joyce", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 20:
+                createText("Diary of a Nobody by George Grossmith and Weedon Grossmith", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 21:
+                createText("Anna Karenina by Leo Tolstoy", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 22:
+                createText("Lost Illusions by Honore de Balzac", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break; 
+              case 23:
+                createText("The Secret Garden by Frances Hodgson Burnett", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;  
+              case 24:
+                createText("Silas Marner by George Eliot", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 25:
+                createText("The Sea, The Sea by Iris Murdoch", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+          }
+        }  
+        else if(userTextString.includes("ya")||userTextString.includes("young adult")) {
+          switch(randomNum25) {
+                case 0:
+                  createText("They Wish They Were Us by Jessica Goodman", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+                case 1:
+                  createText("The Hate U Give by Angie Thomas", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 2:
+                  createText("Jane Eyre by Charlotte Bronte", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 3:
+                  createText("Anna K by Jenny Lee", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 4:
+                createText("With the Fire on High by Elizabeth Acevedo", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 5:
+                createText("Tokyo Ever After by Emiko Jean", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 6:
+                createText("Laura Dean Keeps Breaking With Me by Mariko Tamaki", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 7:
+                createText("It’s Kind of a Funny Story by Ned Vizzini", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 8:
+                createText("The Perks of Being a Wallflower by Stephen Chbosky", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 9:
+                createText("One of Us Is Lying by Karen M. McManus", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 10:
+                createText("A Separate Peace by John Knowles", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 11:
+                createText("Cinder by Marissa Meyer", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 12:
+                createText("Every Day by David Levithan", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 13:
+                createText("Illuminae by Amie Kaufman", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 14:
+                createText("Legend by Marie Lu", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 15:
+                createText("Monster by Walter Dean Myers", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 16:
+                createText("Sadie by Courtney Summers", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 17:
+                createText("Scythe by Neal Shusterman", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 18:
+                createText("The Astonishing Color of After by Emily X.R. Pan", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 19:
+                createText("The Wind in the Willows by Kenneth Grahame", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 20:
+                createText("This Savage Song by Victoria Schwab", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 21:
+                createText("We Were Liars by E. Lockhart", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 22:
+                createText("Junk by Melvin Burgess", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break; 
+              case 23:
+                createText("Homecoming by Cynthia Voight", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;  
+              case 24:
+                createText("Fangirl by Rainbow Rowell", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 25:
+                createText("How I Live Now by Meg Rosoff", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+          }
+        }
+        else if(userTextString.includes("romance")|| userTextString.includes("love")) {
+          switch(randomNum20) {
+                case 0:
+                  createText("Brazen and the Beast by Sarah MacLean", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+                case 1:
+                  createText("Royal Holiday by Jasmine Guillory", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 2:
+                  createText("The Savior by J.R. Ward", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 3:
+                  createText("Seven Days in June by Tia Williams", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 4:
+                createText("The Wedding Date by Jasmine Guillory", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 5:
+                createText("Crazy Rich Asians by Kevin Kwan", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 6:
+                createText("Me Before You by Jojo Moyes", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 7:
+                createText("Eleanor & Park by Rainbow Rowell", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 8:
+                createText("In Her Shoes by Jennifer Weiner", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 9:
+                createText("Matchmaking for Beginners by Maddie Dawson", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 10:
+                createText("Wuthering Heights by Emily Bronte", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 11:
+                createText("Because of Miss Bridgerton by Julia Quinn", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 12:
+                createText("The Remains of the Day by Kazuo Ishiguro", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 13:
+                createText("Love in the Time of Cholera by Gabriel Garcia Marquez", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 14:
+                createText("The Hating Game by Sally Thorne", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 15:
+                createText("Indigo by Beverly Jenkins", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 16:
+                createText("The Captive by Grace Burrowes", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 17:
+                createText("A Lady Awakened by Cecilia Grant", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 18:
+                createText("The Far Pavilions by M. M. Kaye", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 19:
+                createText("Anna and the French Kiss by Stephanie Perkins", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 20:
+                createText("Perfect Chemistry by Simone Elkeles", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+          }
+        }
+        else if(userTextString.includes("short story")|| userTextString.includes("short stories")) {
+          switch(randomNum20) {
+                case 0:
+                  createText("This Is How You Lose Her by Junot Diaz", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+                case 1:
+                  createText("Florida by Lauren Groff", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 2:
+                  createText("How Long ‘til Black Future Month by N.K. Jemisin", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 3:
+                  createText("What We Talk About When We Talk About Love by Raymond Carver", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 4:
+                createText("The Outing by Lydia Davis", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 5:
+                createText("Private Tuition by Mr Bose by Anita Desai", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 6:
+                createText("Glittering City by Cyprian Ekwensi", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 7:
+                createText("The Midnight Zone by Lauren Groff", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 8:
+                createText("The Superstition of Albatross by Daisy Johnson", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 9:
+                createText("Araby by James Joyce", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 10:
+                createText("What, of this Goldfish, Would You Wish? by Etgar Keret ", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 11:
+                createText("The Elephant by Sławomir Mrożek", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 12:
+                createText("The Elephant Vanishes by Haruki Murakami", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 13:
+                createText("Symbols and Signs by Vladimir Nabokov", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 14:
+                createText("And I Awoke and Found Me Here on the Cold Hill's Side by James Tiptree Jr.", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 15:
+                createText("Vampires in the Lemon Grove by Karen Russell", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 16:
+                createText("The Happy Prince by Oscar Wilde", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 17:
+                createText("Bee Honey by Banana Yoshimoto", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 18:
+                createText("The Metamorphosis by Franz Kafka", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 19:
+                createText("Stories of Your Life by Ted Chiang", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 20:
+                createText("The Swimmer by John Cheever", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+          }
+        }  
+        else if(userTextString.includes("suspense")|| userTextString.includes("thriller")||userTextString.includes("thrillers")) {
+          switch(randomNum20) {
+                case 0:
+                  createText("Gone Girl by Gillian Flynn", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+                case 1:
+                  createText("The 19th Christmas by James Patterson", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 2:
+                  createText("The Guardians by John Grisham", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 3:
+                  createText("The Firm by John Grisham", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 4:
+                createText("Baby Teeth: A Novel by Zoje Stage", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 5:
+                createText("The Dinner by Herman Koch", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 6:
+                createText("Intensity by Dean Koontz", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 7:
+                createText("Wolf in White Van by John Darnielle", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 8:
+                createText("Behind Closed Doors by B.A. Paris", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 9:
+                createText("The Maidens by Alex Michaelides", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 10:
+                createText("Strangers on a Train by Patricia Highsmith", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 11:
+                createText("Shutter Island by Dennis Lehane", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 12:
+                createText("The Last Mrs. Parrish by Liv Constantine", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 13:
+                createText("Final Girls by Riley Sager", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 14:
+                createText("The Thursday Murder Club by Richard Osman", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 15:
+                createText("Watch Her Fall by Erin Kelly", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 16:
+                createText("Moonflower Murders by Anthony Horowitz", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 17:
+                createText("Talented Mr Ripley by Patricia Highsmith", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 18:
+                createText("Your House Will Pay by Steph Cha", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 19:
+                createText("The Silent Patient by Alex Michaelides", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 20:
+                createText("An Absolutely Remarkable Thing by Hank Green", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+          }
+        }    
+        else if(userTextString.includes("true crime")) {
+          switch(randomNum20) {
+                case 0:
+                  createText("Catch and Kill by Ronan Farrow", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+                case 1:
+                  createText("I’ll Be Gone in the Dark by Michelle McNamara", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 2:
+                  createText("Helter Skelter by Vincent Bugliosi", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 3:
+                  createText("Last Call by Elon Green", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 4:
+                createText("Savage Appetites by Rachel Monroe", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 5:
+                createText("The Fact of a Body by Alexandria Marzano-Lesnevich", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 6:
+                createText("Justice: Crimes, Trials, and Punishments by Dominick Dunne", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 7:
+                createText("My Dark Places by James Ellroy", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 8:
+                createText("Midnight in the Garden of Good and Evil by John Berendt", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 9:
+                createText("Killers of the Flower Moon by David Grann", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 10:
+                createText("Devil's Knot by Mara Leveritt", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 11:
+                createText("The Brothers by Masha Gessen", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 12:
+                createText("The Devil in the White City by Erik Larson", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 13:
+                createText("People Who Eat Darkness by Richard Lloyd Parry", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 14:
+                createText("The Red Parts by Maggie Nelson", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 15:
+                createText("The Journalist and the Murderer by Janet Malcolm", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 16:
+                createText("The Stranger Beside Me by Ann Rule", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 17:
+                createText("The Executioners Song by Norman Mailer", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 18:
+                createText("Evidence of Love: A True Story of Passion and Death in the Suburbs by Jim Atkinson and John Bloom", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 19:
+                createText("Lost Girls: An Unsolved American Mystery by Robert Kolker", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 20:
+                createText("The Grim Sleeper: The Lost Women of South Central by Christine Pelisek", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+          }
+        }
+        else if(userTextString.includes("literary fiction")) {
+          switch(randomNum20) {
+                case 0:
+                  createText("Where the Crawdads Sing by Delia Owens", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+                case 1:
+                  createText("Olive, Again by Elizabeth Strout", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 2:
+                  createText("The Dutch House by Ann Patchett", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 3:
+                  createText("Normal People by Sally Rooney", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 4:
+                createText("Cloud Cuckoo Land by Anthony Doerr", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 5:
+                createText("Before the Fall by Noah Hawley", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 6:
+                createText("The Sweetness of Water by Nathan Harris", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 7:
+                createText("Nothing to See Here by Kevin Wilson", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 8:
+                createText("No Longer Human bu Osamu Dazai", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 9:
+                createText("The Five Wounds by Kirstin Valdez Quade", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 10:
+                createText("Fault Lines by Emily Itami", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 11:
+                createText("Tender Is the Flesh by Agustina Bazterrica", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 12:
+                createText("The Sentence by Louise Erdrich", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 13:
+                createText("The Alchemist by Paulo Coelho", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 14:
+                createText("The Book of Form and Emptiness", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 15:
+                createText("Matrix by Lauren Groff", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 16:
+                createText("The Secret History by Donna Tartt", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 17:
+                createText("Great Circle by Maggie Shipstead", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 18:
+                createText("The Anomaly by Herve Le Tellier", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 19:
+                createText("Crossings by Alex Landragin", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 20:
+                createText("Play It As It Lays by Joan Didion", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+          }
+        }
         else if(userTextString.includes("brunch")|| userTextString.includes("breakfast")) {
           switch(randomNum20) {
                 case 0:
@@ -1028,6 +2243,165 @@ $(document).ready(function() {
                 break;
               case 20:
                 createText("Double Zero - A plant-based pizza concept from Matthew Kenney in New York City’s East Village. Serving small plates, organic pizza prepared in a wood burning oven and vegan ice cream.", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+          }
+        } 
+        else if(userTextString.includes("gift")||userTextString.includes("present")||userTextString.includes("general")||userTextString.includes("fam")) {
+          switch(randomNum30) {
+                case 0:
+                  createText("Electric S'mores Maker", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+                case 1:
+                  createText("Fro-Yo and Ice Cream Maker", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 2:
+                  createText("Personalized Family Mugs", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 3:
+                  createText("Mini Projector", "textyou");
+                  arrVal = -1;
+                  computerResponse = 1;
+                  break;
+              case 4:
+                createText("Robot Mop", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 5:
+                createText("Giant Inflatable Bowling Set", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 6:
+                createText("Custom Matte Photo Puzzles", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 7:
+                createText("Letterboard Photo Collage", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 8:
+                createText("Wooden Hanging Family Celebration Calendar", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 9:
+                createText("Shaved Ice and Snow Cone Machine", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 10:
+                createText("GPS 4K Camera Drone", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 11:
+                createText("Handmade Dumpling Making Set", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 12:
+                createText("Artisan Pizza Oven", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 13:
+                createText("SoundLink Flex Bluetooth Portable Speaker", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 14:
+                createText("Tic Tac Toe and Giant Checkers", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 15:
+                createText("Gold Splash Fine Dinnerware Set", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 16:
+                createText("Split Pie Pan", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 17:
+                createText("DIY Candle Kit", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 18:
+                createText("Wooden Crafted Cat Coasters, Set of 6", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 19:
+                createText("Round Flip Belgian Waffle Maker", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 20:
+                createText("Custom Family Name Sign", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 21:
+                createText("Daily Flip Calendar with Inspirational Quotes", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 22:
+                createText("Family Charades", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break; 
+              case 23:
+                createText("Curry In A Hurry Indian Sauces Combo", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;  
+              case 24:
+                createText("Korean Sauce Variety 3-Pack", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 25:
+                createText("Family Saying Throw Pillow Cover Set", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 26:
+                createText("Zephyr Flyer from Tupelo Goods", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 27:
+                createText("Custom Illustrated Family Print", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 28:
+                createText("Personalized Family Constellation Map", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 29:
+                createText("Grilled Cheese Toaster", "textyou");
+                arrVal = -1;
+                computerResponse = 1;
+                break;
+              case 30:
+                createText("Echo Glow Smart Lamp", "textyou");
                 arrVal = -1;
                 computerResponse = 1;
                 break;
