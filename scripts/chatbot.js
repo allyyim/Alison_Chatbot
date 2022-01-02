@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  alert("Welcome to Alison's ChatBot! Type in the textbox to talk with the ChatBot. Try saying hi, asking for the time, book recs based on the genre, food recs in NYC (dining neighborhood, cuisine, meal type, type) fun facts/trivia, or for a joke.");
+  alert("Welcome to Alison's ChatBot! Type in the textbox to talk with the ChatBot. Try saying hi, asking for the time, book recs based on the genre, food recs in NYC (dining neighborhood, cuisine, meal type, type), an interesting or weird world record, an activity to add to your bucket list, fun facts/trivia, or for a joke.");
 
   var greetings = ["hello", "hey", "howdy", "hi", "yo", "hola", "bonjour", "salut"];
   var questionStart = ["how", "what", "what's", "where", "why", "?"];
